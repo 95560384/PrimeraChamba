@@ -1,0 +1,394 @@
+.uk-padding-small {
+    padding: 15px;
+    padding-top: 15px;
+    padding-right: 15px;
+    padding-bottom: 15px;
+    padding-left: 15px;
+}
+
+.title-banner {
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+    flex-direction: row-reverse;
+}
+
+.magnifying-glass {
+    margin-top: 35px;
+    display: flex;
+    text-decoration: none;
+    cursor: pointer;
+    font-size: x-large;
+    color: black;
+    margin-left: 25px;
+    flex-direction: column-reverse;
+    flex-wrap: wrap;
+    align-content: stretch;
+}
+.magnifying-glass:hover {
+    color: red;
+}
+
+.p1 {
+    margin-left: 215px;
+    font-family: none;
+    font-size: 50px;
+}
+
+
+.cart-shopping {
+    display: flex;
+    margin-top: 35px;
+    position: absolute;
+    text-decoration: none;
+    cursor: pointer;
+    font-size: x-large;
+    color: black;
+    right: 50px;
+    flex-wrap: wrap;
+    align-items: stretch;
+}
+.fa-cart-shopping:hover {
+    color: red;
+}
+
+.user-name {
+    margin-right: 30px;
+    margin-top: 38px;
+}
+
+.title-catorce-doce {
+    margin-right: 60px;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    align-items: flex-start;
+    justify-content: space-between;
+}
+
+.Imagenes-banner-1412-jpg {
+    margin-top: 0px;
+    width: 100%;
+    height: 80%;
+    display: block;
+}
+
+.top-banner {
+    position: relative;
+    padding: 0px;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+}
+
+.fa-truck-fast {
+    padding-right: 10px;
+    color:white;
+    font-size: x-large;
+}
+
+.container-imagenes {
+    flex-wrap: wrap;
+    display: flex;
+    align-content: flex-start;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.container-secciones {
+    text-decoration: none;
+    background-color: black;
+    padding: 10px;
+    flex-wrap: wrap;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    align-content: stretch;
+    flex-direction: row;
+    justify-content: space-evenly;
+
+}
+
+.secciones-nolink {
+    width: 100%;
+    text-align: center;
+    text-decoration: none;
+    
+    font-size: x-large;
+    color:white;
+   
+
+}
+
+.section-container {
+    margin-top: 2px;
+    font-family: sans-serif;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+    align-items: center;
+    background-color: black;
+}
+
+li {
+    font-size: medium;
+    justify-content: right;
+}
+
+.payment-data-icon {
+    margin-right: 10px;
+}
+
+h1 {
+    color: white;
+    text-align: center;
+    background-color: red;
+    font-family: sans-serif;
+    font-size: medium;
+
+
+}
+
+.imagenes {
+
+    padding: 15px;
+    padding-top: 15px;
+    padding-right: 30px;
+    padding-bottom: 15px;
+    padding-left: 15px;
+    width: 265px;
+    height: 345px;
+
+}
+
+nav {
+    font-size: x-large;
+    text-overflow: ellipsis;
+}
+
+.video-style {
+    padding-left: 0px;
+    justify-content: center;
+
+}
+
+video {
+    padding: 5px;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 600px;
+    object-fit: cover;
+}
+
+.promotion-type {
+    display: flex;
+    flex-direction: row-reverse;
+    flex-wrap: wrap;
+    align-content: stretch;
+    justify-content: flex-end;
+    align-items: center;
+}
+
+
+.card-type {
+    padding-left: 150px;
+    display: flex;
+    flex-direction: row-reverse;
+    flex-wrap: wrap;
+    align-items: center;
+}
+
+.chash-type {
+    padding-left: 150px;
+    display: flex;
+    flex-direction: row-reverse;
+    flex-wrap: wrap;
+    align-items: center;
+}
+
+.payment-type {
+    padding-left: 150px;
+    display: flex;
+    flex-direction: row-reverse;
+    flex-wrap: wrap;
+    align-items: center;
+}
+
+.payments-method {
+    padding-left: 0px;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: flex-start;
+    align-items: center;
+    font-weight: bold;
+}
+
+
+.payment-data-section {
+    color: red ;
+    font-weight: bold;
+    font-style: oblique;
+}
+
+.fa-truck-arrow-right {
+    font-size: 80px;
+}
+
+.fa-credit-card {
+    font-size: 80px;
+}
+
+.fa-dolly {
+    font-size: 80px;
+}
+
+.h3 {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    flex-direction: column;
+    align-items: stretch;
+   
+}
+
+.icons-shipping {
+    padding: 17px;
+    margin-top: 65px;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.free-shipping {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    align-content: flex-start;
+    align-items: center;
+}
+
+.payments-types {
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    align-content: flex-start;
+    align-items: center;
+
+}
+
+.fast-shipping {
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    align-content: flex-start;
+    align-items: center;
+}
+
+.banner-free-shipping {
+    margin-left: 94px;
+    width: 1080px;
+}
+
+.logo-1412 {
+    margin-top: 40px;
+}
+
+.page-dowm {
+    text-decoration: none;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    align-items: center;
+    align-content: space-around;
+}
+
+
+.Colección-camisas-sueters { 
+    width: 100%;
+    justify-content: space-around;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: flex-end;
+} 
+
+.Colección {
+    text-decoration: none;
+    /*margin-right: 373px;*/
+    
+}
+
+.Camisas {
+    text-decoration: none;
+    /*margin-right: 400px;*/
+}
+
+.Sueters {
+    text-decoration: none;
+    color: black;
+}
+
+.Shorts-Gorras {
+    color: black;
+    text-decoration: none;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: flex-end;
+}
+
+.Shorts {
+    text-decoration: none;
+    margin-left: 40px;
+    margin-right: 255px;
+}
+
+
+.Gorras {
+    text-decoration: none;
+    margin-left: 208px;
+}
+
+.social-media {
+    margin-left: 48px;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+}
+
+.instagram {
+    margin-top: 30px;
+    margin-right: 40px;
+    font-size: xx-large;
+    color: rgb(222, 18, 130);
+}
+
+.facebook {
+    margin-top: 30px;
+    margin-right: 40px;
+    font-size: xx-large;
+    color: blue;
+}
+
+.whatsapp {
+    margin-top: 30px;
+    margin-right: 40px;
+    font-size: xx-large;
+    color: rgb(0, 255, 30);
+}
+
+/* {
+margin: 10px; margin establece el margen para los cuatro lados
+
+padding:0%; padding establece el espacio de relleno
+
+background-color: rgb(247, 250, 249); cambia el color de relleno
+
+font-family: 0; cambia el tipo de letra
+} */

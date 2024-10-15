@@ -1,0 +1,2 @@
+El Proyecto se va a tratar de una tienda virtual que vende ropa comoda, a la moda, para cualquier de cliente y para todas las epocas del año.
+La idea es que el cliente pueda entrar a la pag y se le haga muy facil el happy path de elegir la prenda que mas le guste agregarla al carrito y comprarla con el metodo pago de su preferencia
