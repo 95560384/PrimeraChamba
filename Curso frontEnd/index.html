@@ -13,9 +13,11 @@
     <header>
 
         <div class="top-banner uk-padding-small" id="myslider" style="background-color: red">
+
             <div class="title-banner">
                 <h1>ENVIO GRATIS EN COMPRAS A PARTIR DE $50.000 PESOS</h1>
                 <i class="fa-solid fa-truck-fast"></i>
+
             </div>
         </div>
 
@@ -30,16 +32,36 @@
             </div>
 
             <div>
+                <a class="user" href="http://127.0.0.1:5500/login/login.html" target="_blank">
+
+                    <i class="fa-solid fa-user"></i>
+                </a>
+
                 <a class="cart-shopping"
                     href="https://1412love.mercadoshops.com.ar/gz/cart?paymentId=5b88f449-a9b8-4574-bf06-2c9741fc8f5d"
                     target="_blank">
 
-                    <i class="fa-solid fa-user"></i>
                     <i class="fa-solid fa-cart-shopping"></i>
-
                 </a>
-                <div class="user-name">
-                    <input type="text" placeholder="UserName" id="UserName" style="margin-right: 4px;" />
+
+                <div class="select-country">
+                    <form>
+                        <label>
+                            Select your country
+                            <input list="country" name="country" style="margin-right: 4px;" />
+                        </label>
+
+                        <datalist id="country">
+                            <option value="Argentina"></option>
+                            <option value="Alemania"></option>
+                            <option value="Brasil"></option>
+                            <option value="Canada"></option>
+                            <option value="España"></option>
+                            <option value="Italia"></option>
+                            <option value="Portugal"></option>
+                            <option value="Venezuela"></option>
+                        </datalist>
+                    </form>
                 </div>
             </div>
         </div>
@@ -213,87 +235,51 @@
                         <img class="logo-1412" src="Imagenes/logo 1412.png" width="100" /></a>
                 </div>
 
-                <section>
-                    <h4>Categoría</h4>
-                </section>
+            </div>
 
-                <div class="Colección-camisas-sueters">
+            <div class="more-information">
+                <h4>For more information visit our social media</h4>
+            </div>
 
-                    <div>
-                        <a class="Colección" href="https://1412love.mercadoshops.com.ar/" target="_blank">Colección</p>
-                        </a>
-                    </div>
+            <div class="social-media">
 
-                    <div>
-
-                        <a class="Camisas"
-                            href="https://1412love.mercadoshops.com.ar/_Container_a68a1e82-4271-4f40-ba62-08c368016c50"
-                            target="_blank">
-                            <p>Camisas</p>
-                        </a>
-
-                    </div>
-
-                    <div>
-
-                        <a class="Sueters"
-                            href="https://1412love.mercadoshops.com.ar/_Container_11dd691b-5cf4-487f-9290-dff0bd974c66"
-                            target="_blank">
-                            <p>Sueters</p>
-                        </a>
-
-                    </div>
-
+                <div class="instagram">
+                    <a href="https://www.instagram.com/1412love/" target="_blank" style="color: rgb(222, 18, 130);">
+                        <i class="fa-brands fa-instagram"></i>
+                    </a>
                 </div>
 
-                <div class="Shorts-Gorras">
+                <div class="facebook">
 
-                    <div>
-                        <a class="Shorts"
-                            href="https://1412love.mercadoshops.com.ar/MLA-1771609546-short-bermuda-1412-_JM?#polycard_client=search-nordic&position=2&search_layout=grid&type=item&tracking_id=8a318e3d-64b1-4fde-b5aa-f4def0e5f860"
-                            target="_blank">
-                            <p>Shorts</p>
-                        </a>
-                    </div>
-
-                    <div>
-                        <a class="Gorras" href="https://www.instagram.com/1412love/p/CILmVorJnxb/?img_index=1"
-                            target="_blank">
-                            <p>Gorras</p>
-                        </a>
-                    </div>
-
+                    <a href="https://es-la.facebook.com/1412love1122/" target="_blank" style="color: blue;">
+                        <i class="fa-brands fa-facebook"></i>
+                    </a>
                 </div>
-                <div class="social-media">
-                    <div class="instagram">
-                        <a href="https://www.instagram.com/1412love/" target="_blank" style="color: rgb(222, 18, 130);">
-                            <i class="fa-brands fa-instagram"></i>
-                        </a>
-                    </div>
+                <div class="whatsapp">
 
-                    <div class="facebook">
-
-                        <a href="https://es-la.facebook.com/1412love1122/" target="_blank" style="color: blue;">
-                            <i class="fa-brands fa-facebook"></i>
-                        </a>
-                    </div>
-                    <div class="whatsapp">
-
-                        <a href="https://api.whatsapp.com/send?phone=541166932470&text=%C2%A1Hola!%20Estoy%20en%20la%20tienda%201412love%20y%20quiero%20pedir%20m%C3%A1s%20informaci%C3%B3n.&paymentId=5b88f449-a9b8-4574-bf06-2c9741fc8f5d"
-                            target="_blank" style="color: rgb(0, 255, 30);">
-                            <i class="fa-brands fa-whatsapp"></i>
-                        </a>
-                    </div>
-
+                    <a href="https://api.whatsapp.com/send?phone=541166932470&text=%C2%A1Hola!%20Estoy%20en%20la%20tienda%201412love%20y%20quiero%20pedir%20m%C3%A1s%20informaci%C3%B3n.&paymentId=5b88f449-a9b8-4574-bf06-2c9741fc8f5d"
+                        target="_blank" style="color: rgb(0, 255, 30);">
+                        <i class="fa-brands fa-whatsapp"></i>
+                    </a>
                 </div>
+
+            </div>
         </nav>
 
-        <form>
-            <p><strong>Sugerencias o Comentarios de satisfacción</strong></p>
-            <label for="Comentarios">Comentarios</label>
-            <input type="text" placeholder="Escribe Aqui" id="Escribe Aqui" />
-            <input type="submit" value="Enviar" />
+
+        <form class="suggestions-or-comments">
+            <p><strong>Suggestions or comments of satisfaction</strong></p>
+            <div class="write-here">
+                <input type="text" placeholder="Write here" id="Write here" />
+                <input type="submit" value="Send" />
+            </div>
         </form>
+
+        <button commandfor="modal" command="showModal">Suggestions</button>
+        <dialog id="modal"> write here!
+            <button commandfor="modal" command="close">Close</button>
+        </dialog>
+
     </footer>
 
 

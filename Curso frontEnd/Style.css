@@ -7,10 +7,12 @@
 }
 
 .title-banner {
+    
     display: flex;
     align-items: center;
     flex-wrap: wrap;
     flex-direction: row-reverse;
+
 }
 
 .magnifying-glass {
@@ -35,6 +37,22 @@
     font-size: 50px;
 }
 
+.user {
+    display: flex;
+    margin-top: 35px;
+    position: absolute;
+    text-decoration: none;
+    cursor: pointer;
+    font-size: x-large;
+    color: black;
+    right: 75px;
+    flex-wrap: wrap;
+    align-items: stretch;
+}
+
+.user:hover {
+    color: red;
+}
 
 .cart-shopping {
     display: flex;
@@ -44,7 +62,7 @@
     cursor: pointer;
     font-size: x-large;
     color: black;
-    right: 50px;
+    right: 40px;
     flex-wrap: wrap;
     align-items: stretch;
 }
@@ -52,12 +70,14 @@
     color: red;
 }
 
-.user-name {
+.select-country {
+    
     margin-right: 30px;
     margin-top: 38px;
 }
 
 .title-catorce-doce {
+    
     margin-right: 60px;
     display: flex;
     flex-direction: row;
@@ -89,12 +109,26 @@
     font-size: x-large;
 }
 
+
+img {
+        scroll-timeline: reveal both;
+        animation: reveal both;
+        animation-timeline: view ();
+        animation-range: entry 20% cover 30%;
+    }
+
 .container-imagenes {
+    transition: transform 0.5s ease-in-out;
     flex-wrap: wrap;
     display: flex;
     align-content: flex-start;
     flex-direction: row;
     justify-content: space-between;
+}
+
+.container-imagenes:hover {
+    transform: scale(1.1);
+    
 }
 
 .container-secciones {
@@ -219,6 +253,7 @@ video {
 }
 
 .payments-method {
+    transition: transform 0.5s ease-in-out;
     padding-left: 0px;
     display: flex;
     flex-direction: row;
@@ -227,6 +262,10 @@ video {
     align-items: center;
     font-weight: bold;
 }
+.payments-method :hover {
+    transform: scale(1.1);
+}
+
 
 
 .payment-data-section {
@@ -238,13 +277,22 @@ video {
 .fa-truck-arrow-right {
     font-size: 80px;
 }
+.fa-truck-arrow-right:hover {
+    color: rgb(164, 17, 17);
+}
 
 .fa-credit-card {
     font-size: 80px;
 }
+.fa-credit-card:hover {
+    color: goldenrod;
+}
 
 .fa-dolly {
     font-size: 80px;
+}
+.fa-dolly:hover {
+    color:rgb(164, 17, 17);
 }
 
 .h3 {
@@ -298,7 +346,11 @@ video {
 }
 
 .logo-1412 {
+    transition: transform 0.5s ease-in-out;
     margin-top: 40px;
+}
+.logo-1412:hover {
+    transform: scale(1.1);
 }
 
 .page-dowm {
@@ -310,78 +362,62 @@ video {
     align-content: space-around;
 }
 
-
-.Colección-camisas-sueters { 
-    width: 100%;
-    justify-content: space-around;
-    display: flex;
-    flex-wrap: wrap;
-    align-items: flex-end;
-} 
-
-.Colección {
-    text-decoration: none;
-    /*margin-right: 373px;*/
-    
-}
-
-.Camisas {
-    text-decoration: none;
-    /*margin-right: 400px;*/
-}
-
-.Sueters {
-    text-decoration: none;
-    color: black;
-}
-
-.Shorts-Gorras {
-    color: black;
-    text-decoration: none;
-    display: flex;
-    flex-wrap: wrap;
-    align-items: flex-end;
-}
-
-.Shorts {
-    text-decoration: none;
-    margin-left: 40px;
-    margin-right: 255px;
-}
-
-
-.Gorras {
-    text-decoration: none;
-    margin-left: 208px;
-}
-
 .social-media {
+    
     margin-left: 48px;
     display: flex;
     flex-wrap: wrap;
-    flex-direction: row;
+    justify-content: space-evenly;
+}
+
+.more-information {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    font-size: x-large;
 }
 
 .instagram {
+    transition: transform 0.4s ease-in-out;
     margin-top: 30px;
     margin-right: 40px;
-    font-size: xx-large;
+    font-size: xxx-large;
     color: rgb(222, 18, 130);
+}
+.instagram:hover {
+    transform: scale(1.2);
 }
 
 .facebook {
+    transition: transform 0.4s ease-in-out;
     margin-top: 30px;
     margin-right: 40px;
-    font-size: xx-large;
+    font-size: xxx-large;
     color: blue;
+}
+.facebook:hover {
+    transform: scale(1.2);
 }
 
 .whatsapp {
+    transition: transform 0.4s ease-in-out;
     margin-top: 30px;
     margin-right: 40px;
-    font-size: xx-large;
+    font-size:xxx-large;
     color: rgb(0, 255, 30);
 }
+.whatsapp:hover {
+    transform: scale(1.2);
+}
+
+.suggestions-or-comments {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    align-items: center;
+    margin: 100px;
+}
+
 
 /* {
 margin: 10px; margin establece el margen para los cuatro lados
