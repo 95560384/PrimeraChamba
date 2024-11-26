@@ -93,6 +93,13 @@
     display: block;
 }
 
+.Imagenes-banner-1412-last-jpg {
+    margin-top: 50px;
+    width: 160%;
+    height: 80%;
+    display: block;
+}
+
 .top-banner {
     position: relative;
     padding: 0px;
@@ -123,7 +130,7 @@ img {
     display: flex;
     align-content: flex-start;
     flex-direction: row;
-    justify-content: space-between;
+    justify-content: space-around;
 }
 
 .container-imagenes:hover {
@@ -258,7 +265,7 @@ video {
     display: flex;
     flex-direction: row;
     flex-wrap: wrap;
-    justify-content: flex-start;
+    justify-content: space-around;
     align-items: center;
     font-weight: bold;
 }
@@ -310,7 +317,7 @@ video {
     display: flex;
     flex-direction: row;
     flex-wrap: wrap;
-    justify-content: space-between;
+    justify-content: space-around;
 }
 
 .free-shipping {
@@ -343,6 +350,42 @@ video {
 .banner-free-shipping {
     margin-left: 94px;
     width: 1080px;
+}
+
+.reseñas_clientes {
+    margin-top: 100px;
+    text-align: center;
+    font-size: larger;
+}
+
+.reseñas {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: 18rem;
+    gap: 1rem;
+    margin-top: 1rem;
+    height: 20rem;
+}
+
+@media (width < 1000px) {
+    .reseñas { grid-template-columns: repeat(2, 1fr);}
+}
+
+@media (width < 500px) {
+    .reseñas { grid-template-columns: 1fr;}
+}
+
+.reseña {
+    transition: transform 0.5s ease-in-out;
+    border: 6px solid  rgb(135 15 4);;
+    border-radius: 1rem;
+    padding: 1rem;
+    text-align: center;
+    background: #cdcdcd;
+}
+
+.reseña:hover {
+    transform: scale(1.1);
 }
 
 .logo-1412 {
