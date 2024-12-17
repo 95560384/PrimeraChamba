@@ -125,16 +125,34 @@ img {
     }
 
 .container-imagenes {
-    transition: transform 0.5s ease-in-out;
-    flex-wrap: wrap;
+    /*transition: transform 0.5s ease-in-out;
+    flex-wrap: wrap;*/
+    cursor: pointer;
     display: flex;
-    align-content: flex-start;
+    flex-wrap: wrap;
+    flex-direction: column;
+    justify-content: center;
+    height: 440px;
+    width: 430px;
+    /*align-content: flex-start;
     flex-direction: row;
-    justify-content: space-around;
+    justify-content: space-around;*/
 }
 
+.container-imagenes {
+    width: 200px;
+    flex-grow: 1;
+    object-fit: cover;
+    opacity: .8;
+    transition: .5s ease;
+}
+
+
 .container-imagenes:hover {
-    transform: scale(1.1);
+    /*transform: scale(1.1);*/
+    width: 300px;
+    opacity: 1;
+    filter: contrast(120%);
     
 }
 
@@ -201,7 +219,7 @@ h1 {
     padding-bottom: 15px;
     padding-left: 15px;
     width: 265px;
-    height: 345px;
+    height: 400px;
 
 }
 
@@ -385,7 +403,7 @@ video {
 }
 
 .reseña:hover {
-    transform: scale(1.1);
+    transform: scale(0.9);
 }
 
 .logo-1412 {
