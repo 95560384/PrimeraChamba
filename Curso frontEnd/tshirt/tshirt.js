@@ -23,7 +23,7 @@ btnCart.addEventListener('click', event =>{
 
     // llamar a la funcion calcularTotal y pasarle como argumento el carrito que llenamos con el evento addcart
     const valorTotal = calcularTotal(cart)
-    alert(valorTotal)
+    //alert(valorTotal)
 })
 
 
