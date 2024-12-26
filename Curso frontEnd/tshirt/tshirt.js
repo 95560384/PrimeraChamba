@@ -7,6 +7,7 @@ console.log("CARRO",cart)
 
 const valorTotal = document.querySelector('#total')
 
+
 /**
  * Funcion para agregar elementos al Carrito broh
  */
@@ -16,8 +17,6 @@ productsList.addEventListener('click', event => {
         const price = Number(product.querySelector('.price').textContent);
         const name = product.querySelector('.name').textContent;
         const shirtImg = product.querySelector('.tshirtimg').src;
-        //console.log('name',name)
-        //console.log('price',price)
         const shirt = {
             name: name,
             price: price,

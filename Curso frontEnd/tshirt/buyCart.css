@@ -16,9 +16,17 @@ body{
     flex-wrap: wrap;
 }
 
+.summary{
+
+    display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        grid-template-rows: 8rem;
+        gap: 2rem;
+        justify-items: start;
+}
+
 .summary-page{
 
-   
     display: grid;
     gap: 32px;
     grid-template-columns: calc(100% - 392px) auto;
@@ -40,6 +48,7 @@ body{
 
 
 .item-price{
+    margin-left: 18px;
     font-weight: bold;
     display: flex;
     flex-wrap: wrap;

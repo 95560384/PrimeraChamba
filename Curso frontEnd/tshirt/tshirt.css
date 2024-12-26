@@ -86,13 +86,24 @@
     justify-content: space-around;
     
 }
+.name{
+
+    font-weight: bold;
+}
+
+.price{
+
+    font-weight: bold;
+}
+
+
 .tshirts {
     width: 80%;
     object-fit: cover;
     text-align: center;
     display: grid;
     grid-template-columns: repeat(3, 1fr);
-    grid-template-rows: 40rem;
+    grid-template-rows: 36rem;
     gap: 3rem;
     height: -31rem;
     align-items: baseline;
@@ -119,6 +130,7 @@
 
 .tshirt1{
 
+    padding-top: 25px;
     background: #d5d5d5;
     border-radius: 24px;
     text-align: center;
@@ -127,7 +139,7 @@
 
 .tshirt2 {
    
-
+    padding-top: 25px;
     background: #d5d5d5;
     border-radius: 24px;
     text-align: center;
@@ -137,7 +149,7 @@
 
 .tshirt3 {
 
-
+    padding-top: 25px;
     background: #d5d5d5;
     border-radius: 24px;
     text-align: center;
@@ -147,7 +159,7 @@
 
 .tshirt4 {
    
-   
+    padding-top: 25px;
     background: #d5d5d5;
     border-radius: 24px;
     text-align: center;
@@ -157,7 +169,7 @@
 
 .tshirt5 {
    
-    
+    padding-top: 25px;
     background: #d5d5d5;
     border-radius: 24px;
     text-align: center;
@@ -167,7 +179,7 @@
 
 .tshirt6 {
    
-    
+    padding-top: 25px;
     background: #d5d5d5;
     border-radius: 24px;
     text-align: center;
