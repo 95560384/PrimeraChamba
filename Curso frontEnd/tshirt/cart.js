@@ -48,23 +48,11 @@ productList.addEventListener('click', event => {
 })
 
 
-
-
-/**
- * Cacular el valor total recorriendo el carrito haciendo la SUMATORIA de todos los items
- * eg. [2,3] = 5
- * [CARRITO] -> TOTAL
- * eg. [14,13,11] = 38
- * CARRITO ES UN ARRAY
- * RECIVE UN CART COMO PARAMETRO -> un ARRAY
- */
 function calcularTotal(cart) {
-    // cart = [{name:'remera1', price:14},{name:'remra2',price:5}]
+    
     let acumulado = 0
+    
     for (let i = 0; i < cart.length; i++){
-        // i = 0
-        // cart [0] = [{name: 'remera1', price: 14}]
-        // cart [1] = [{{name:'remra2',price:5}]
         acumulado = acumulado + cart[i].price
     }
     
