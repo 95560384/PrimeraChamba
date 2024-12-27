@@ -3,6 +3,7 @@ const productsList = document.querySelector('.tshirts');
 
 // 2. El componente carrito debera sumar los elementos que agregaste al carrito y mostrar el total
 const cart = JSON.parse(localStorage.getItem('cart')) || []
+document.getElementById('count-cart').innerHTML = `(${cart.length})`;
 
 const valorTotal = document.querySelector('#total')
 
@@ -24,9 +25,10 @@ productsList.addEventListener('click', event => {
         console.log("AGREGADO",cart)
         cart.push(shirt)
         localStorage.setItem('cart',JSON.stringify(cart));
-        window.location.reload();
+        document.getElementById('count-cart').innerHTML = `(${cart.length})`;
+    
     }
-    actualizarNumeroCarrito();
+   
 })
 
 
@@ -37,19 +39,18 @@ btnCart.addEventListener('click', event =>{
    window.location.href="http://127.0.0.1:5500/tshirt/BuyCart.index.html";
 })
 
-const cuentaCarritoElement = document.getElementById('count-cart').innerHTML = `(${cart.length})`;
-function actualizarNumeroCarrito() {
-    const cart = JSON.parse(localStorage.getItem("cart")) || [];
-    const count = cart.reduce((acum, current) => {
-        const shirtCount = current?.shirt; 
-        return acum + shirtCount;
-    }, 0);
-    //const count = cart.reduce((acum, current) => acum+current.shirt,0 )
-    cuentaCarritoElement.innerText = count;
+ //document.getElementById('count-cart').innerHTML = `(${cart.length})`;
+//function actualizarNumeroCarrito() {
+    //const cart = JSON.parse(localStorage.getItem("cart")) || [];
+   // const count = cart.reduce((acum, current) => {
+        //const shirtCount = current?.shirt; 
+        //return acum + shirtCount;
+   // }, 0);
+    //cuentaCarritoElement.innerText = count;
     
-  }
+  //}
   
-  actualizarNumeroCarrito();
+  //actualizarNumeroCarrito();
 
   
 
