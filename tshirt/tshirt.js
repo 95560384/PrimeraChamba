@@ -33,7 +33,7 @@ btnCart.addEventListener("click", (event) => {
   // evento disparado
   // llamar a la funcion calcularTotal y pasarle como argumento el carrito que llenamos con el evento addcart
   //const valorTotal = calcularTotal(cart)
-  window.location.href = "./BuyCart.index.html";
+  window.location.href = "./buyCart.index.html";
 });
 
 //document.getElementById('count-cart').innerHTML = `(${cart.length})`;
