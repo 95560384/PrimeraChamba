@@ -28,6 +28,7 @@
 }
 
 .cart-shopping {
+    gap: 5px;
     margin: -14px;
     display: flex;
     position: absolute;
@@ -42,6 +43,17 @@
 .fa-cart-shopping {
     color: rgb(255, 255, 255);
 }
+
+.fa-cart-shopping:hover{
+    color: yellow;
+}
+
+#count-cart{
+    font-weight: bold;
+    color: yellow;
+    font-size: large;
+    display: contents;
+  }
 
 .Imagenes-banner-tshirt-png {
     display: flex;

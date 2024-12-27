@@ -19,10 +19,10 @@ body{
 .summary{
 
     display: grid;
-        grid-template-columns: repeat(2, 1fr);
-        grid-template-rows: 8rem;
-        gap: 2rem;
-        justify-items: start;
+    grid-template-columns: repeat(2, 1fr);
+    grid-template-rows: 8rem;
+    gap: 2rem;
+    justify-items: start;
 }
 
 .summary-page{
